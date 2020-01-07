@@ -16,6 +16,32 @@
             "id_zona": 3
         }
     ],
+    "activos":[
+        {
+            "id": 1,
+            "nombre": "Mobil Utilitario DJC-264-ZBC",
+            "tipo_activo": 1,
+            "id_zona": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Mobil Utilitario RFT-795-ZBC",
+            "tipo_activo": 2,
+            "id_zona": 2
+        },
+        {
+            "id": 3,
+            "nombre": "Perforadora 1-Z3",
+            "tipo_activo": 1,
+            "id_zona": 3
+        },
+        {
+            "id": 4,
+            "nombre": "Perforadora 2-Z3",
+            "tipo_activo": 2,
+            "id_zona": 3
+        }
+    ],
     "tipos_activos":[  
         {
             "id": 1,
