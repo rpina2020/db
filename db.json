@@ -122,5 +122,25 @@
             "hss_ingreso": "17:00:00",
             "hss_egreso": "17:00:00"
         }
+    ],
+    "users":[
+        {
+            "id": 1,
+            "nombre": "Egreso",
+            "id_perimetro": 1,
+            "id_activo": 1,
+            "descripcion": "El activo egreso de",
+            "hss_ingreso": "17:00:00",
+            "hss_egreso": "17:00:00"
+        },
+        {
+            "id": 2,
+            "nombre": "ingreso",
+            "id_perimetro": 2,
+            "id_activo": 2,
+            "descripcion": "El activo egreso de",
+            "hss_ingreso": "17:00:00",
+            "hss_egreso": "17:00:00"
+        }
     ]
 }
