@@ -2,25 +2,18 @@
     "users":[
         {
             "id": 1,
-            "name": "Leanne Graham",
             "username": "admin",
-            "password": "admin1234",
-            "email": "Sincere@april.biz",
-            "geo": {
-                "lat": "-37.3159",
-                "lng": "81.1496"
-            }
+            "password": "admin1234"
         },
         {
             "id": 2,
-            "name": "Ervin Howell",
             "username": "ramiro",
-            "password": "ramiro1234",
-            "email": "Shanna@melissa.tv",
-            "geo": {
-                "lat": "-43.9509",
-                "lng": "-34.4618"
-            }
+            "password": "ramiro1234"
+        },
+        {
+            "id": 3,
+            "username": "invitado",
+            "password": "invitado1234"
         }
     ],
     "perimetros":[
