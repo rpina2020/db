@@ -1,21 +1,4 @@
 {
-    "users":[
-        {
-            "id": 1,
-            "username": "admin",
-            "password": "admin1234"
-        },
-        {
-            "id": 2,
-            "username": "ramiro",
-            "password": "ramiro1234"
-        },
-        {
-            "id": 3,
-            "username": "invitado",
-            "password": "invitado1234"
-        }
-    ],
     "perimetros":[
         {
             "id": 1,
