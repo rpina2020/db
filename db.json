@@ -1,14 +1,11 @@
-[{
-  "activos": [
-    { "id": 1, "name": "Ramiro Cel", "imei": 12341432354 },
-    { "id": 2, "name": "Admin", "imei": 43231432354 },
-    { "id": 3, "name": "invitado CELU", "imei": 52341432354}
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
   ],
   "profile": {
     "name": "typicode"
   }
-}]
+}
