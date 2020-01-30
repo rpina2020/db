@@ -1,4 +1,4 @@
-{
+[{
   "activos": [
     { "id": 1, "name": "Ramiro Cel", "imei": 12341432354 },
     { "id": 2, "name": "Admin", "imei": 43231432354 },
@@ -11,4 +11,4 @@
   "profile": {
     "name": "typicode"
   }
-}
+}]
