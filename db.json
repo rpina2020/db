@@ -1,107 +1,14 @@
 {
-    "perimetros":[
-        {
-            "id": 1,
-            "nombre": "INSTALACION",
-            "id_zona": 1
-        },
-        {
-            "id": 2,
-            "nombre": "COCHERA 1",
-            "id_zona": 2
-        },
-        {
-            "id": 3,
-            "nombre": "ALMACEN 1",
-            "id_zona": 3
-        }
-    ],
-    "activos":[
-        {
-            "id": 1,
-            "nombre": "Mobil Utilitario DJC-264-ZBC",
-            "tipo_activo": 1,
-            "id_zona": 1
-        },
-        {
-            "id": 2,
-            "nombre": "Mobil Utilitario RFT-795-ZBC",
-            "tipo_activo": 2,
-            "id_zona": 2
-        },
-        {
-            "id": 3,
-            "nombre": "Perforadora 1-Z3",
-            "tipo_activo": 1,
-            "id_zona": 3
-        },
-        {
-            "id": 4,
-            "nombre": "Perforadora 2-Z3",
-            "tipo_activo": 2,
-            "id_zona": 3
-        }
-    ],
-    "tipos_activos":[  
-        {
-            "id": 1,
-            "id_activos": 1,
-            "id_perimetros": 1,
-            "id_atributos_activos": [1,3,5,6,22]
-        },
-        {
-            "id": 2,
-            "id_activos": 2,
-            "id_perimetros": 2,
-            "id_atributos_activos": [1,3,5,6,22]
-        }
-    ],
-    "atributos_activos":[
-        {
-            "id_atributos_activos": 1,
-            "id_tipos_atributos": 1,
-            "unidad_medida": 1,
-            "valor": 100
-        },
-        {
-            "id_atributos_activos": 2,
-            "id_tipos_atributos": 2,
-            "unidad_medida": 2,
-            "valor": 200
-        }
-    ],
-    "operaciones":[
-        {
-            "id": 1,
-            "nombre": "Egreso",
-            "id_perimetro": 1,
-            "id_activo": 1,
-            "descripcion": "El activo egreso de",
-            "hss_ingreso": "17:00:00",
-            "hss_egreso": "17:00:00"
-        },
-        {
-            "id": 2,
-            "nombre": "ingreso",
-            "id_perimetro": 2,
-            "id_activo": 2,
-            "descripcion": "El activo egreso de",
-            "hss_ingreso": "17:00:00",
-            "hss_egreso": "17:00:00"
-        }
-    ],
-    "users":[
-        {
-            "id": 1,
-            "nombre": "admin",
-            "username": "admin",
-            "password": "admin1234"
-        },
-        {
-            "id": 2,
-            "nombre": "ramiro",
-            "username": "ramiro",
-            "password": "admin1234"
-        }
-    ]
+  "activos": [
+    { "id": 1, "name": "Ramiro Cel", "imei": 12341432354 },
+    { "id": 2, "name": "Admin", "imei": 43231432354 },
+    { "id": 3, "name": "invitado CELU", "imei": 52341432354}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
