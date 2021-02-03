@@ -1,208 +1,133 @@
 {
+  "perimetros": [
+    {
+      "id": 1,
+      "nombre": "INSTALACION",
+      "id_zona": 1
+    },
+    {
+      "id": 2,
+      "nombre": "COCHERA 1",
+      "id_zona": 2
+    },
+    {
+      "id": 3,
+      "nombre": "ALMACEN 1",
+      "id_zona": 3
+    }
+  ],
   "activos": [
     {
+        "id":1,
+        "nombre":"Mobil Utilitario DJC-264-ZBC",
+        "tipo_activo":1,
+        "id_zona":1,
+        "lat": -34.899911,
+        "lng": -57.954934,
+        "img": "https://s7d2.scene7.com/is/image/Caterpillar/C785388"
+    },
+    {
+        "id":2,
+        "nombre":"Mobil Utilitario RFT-795-ZBC",
+        "tipo_activo":2,
+        "id_zona":2,
+        "lat": -34.899911,
+        "lng": -57.954934,
+        "img": "https://s7d2.scene7.com/is/image/Caterpillar/C785388"
+    },
+    {
+        "id":3,
+        "nombre":"Mobil Utilitario 3",
+        "tipo_activo":1,
+        "id_zona":3,
+        "lat": -34.899911,
+        "lng": -57.954934,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB805QRUI_ycck5QRp_sPqdqO_pZqSbuE5Xw&usqp=CAU"
+    },
+    {
+        "id":4,
+        "nombre":"Mobil Utilitario 4",
+        "tipo_activo":2,
+        "id_zona":3,
+        "lat": -34.899911,
+        "lng": -57.954934,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB805QRUI_ycck5QRp_sPqdqO_pZqSbuE5Xw&usqp=CAU"
+    }
+  ],
+  "tipos_activos": [
+    {
       "id": 1,
-      "lat": -34.905449958169356,
-      "lng": -58.10571586085789,
-      "name": "Mobil_1",
-      "state": 0
+      "id_activos": 1,
+      "id_perimetros": 1,
+      "id_atributos_activos": [
+        1,
+        3,
+        5,
+        6,
+        22
+      ]
     },
     {
       "id": 2,
-      "lat": -34.891089238862506,
-      "lng": -58.088893045916485,
-      "name": "Mobil_2",
-      "state": 1
-    },
-    {
-      "id": 3,
-      "lat": -34.91361473753152,
-      "lng": -58.09335624171727,
-      "name": "Mobil_3",
-      "state": 2
-    },
-    {
-      "id": 4,
-      "lat": -34.897847537183694,
-      "lng": -58.065203775896954,
-      "name": "Mobil_4",
-      "state": 3
-    },
-    {
-      "id_active": "3",
-      "name": "Mobil_3",
-      "speed": "",
-      "date": "",
-      "time": "",
-      "id": 5
-    },
-    {
-      "id_active": "3",
-      "name": "Mobil_3",
-      "speed": "",
-      "date": "",
-      "time": "",
-      "id": 6
-    },
-    {
-      "id_active": "3",
-      "name": "Mobil_3",
-      "speed": "",
-      "date": "",
-      "time": "",
-      "id": 7
-    },
-    {
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.899825199999995",
-      "lng": "-57.955034999999995",
-      "speed": "",
-      "date": "",
-      "time": "",
-      "id": 8
-    },
-    {
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.899825199999995",
-      "lng": "-57.955034999999995",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "18:44:51",
-      "id": 9
+      "id_activos": 2,
+      "id_perimetros": 2,
+      "id_atributos_activos": [
+        1,
+        3,
+        5,
+        6,
+        22
+      ]
     }
   ],
-  "tracking_points": [
+  "atributos_activos": [
+    {
+      "id_atributos_activos": 1,
+      "id_tipos_atributos": 1,
+      "unidad_medida": 1,
+      "valor": 100
+    },
+    {
+      "id_atributos_activos": 2,
+      "id_tipos_atributos": 2,
+      "unidad_medida": 2,
+      "valor": 200
+    }
+  ],
+  "operaciones": [
     {
       "id": 1,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998613",
-      "lng": "-57.955070000000006",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "18:48:24"
+      "nombre": "Egreso",
+      "id_perimetro": 1,
+      "id_activo": 1,
+      "descripcion": "El activo egreso de",
+      "hss_ingreso": "17:00:00",
+      "hss_egreso": "17:00:00"
     },
     {
       "id": 2,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998613",
-      "lng": "-57.955070000000006",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "18:48:45"
-    },
-    {
-      "id": 3,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998536",
-      "lng": "-57.955076600000005",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "19:31:38"
-    },
-    {
-      "id": 4,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998536",
-      "lng": "-57.955076600000005",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "19:31:47"
-    },
-    {
-      "id": 5,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998613",
-      "lng": "-57.955070000000006",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "19:32:24"
-    },
-    {
-      "id": 6,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998613",
-      "lng": "-57.955070000000006",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "19:32:33"
-    },
-    {
-      "id": 7,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.899831999999996",
-      "lng": "-57.955084799999995",
-      "speed": "",
-      "date": "28/2/2020",
-      "time": "19:38:58"
-    },
-    {
-      "id": 8,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.899825799999995",
-      "lng": "-57.955062299999994",
-      "speed": "",
-      "date": "29/2/2020",
-      "time": "12:19:31"
-    },
-    {
-      "id": 9,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998902",
-      "lng": "-57.955017",
-      "speed": "",
-      "date": "29/2/2020",
-      "time": "12:22:25"
-    },
-    {
-      "id": 10,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998902",
-      "lng": "-57.955017",
-      "speed": "",
-      "date": "29/2/2020",
-      "time": "12:22:31"
-    },
-    {
-      "id": 11,
-      "id_active": "3",
-      "name": "Mobil_3",
-      "lat": "-34.8998902",
-      "lng": "-57.955017",
-      "speed": "",
-      "date": "29/2/2020",
-      "time": "12:22:31"
-    },
-    {
-      "id": 12,
-      "name": "Mobil_3",
-      "lat": "-34.8998683",
-      "lng": "-57.955047799999996",
-      "speed": "",
-      "date": "29/2/2020",
-      "time": "14:30:33"
+      "nombre": "ingreso",
+      "id_perimetro": 2,
+      "id_activo": 2,
+      "descripcion": "El activo egreso de",
+      "hss_ingreso": "17:00:00",
+      "hss_egreso": "17:00:00"
     }
   ],
-  "profile": {
-    "name": "typicode",
-    "email": "ramiro@email.com",
-    "user": "ramiro",
-    "pass": "123456",
-    "img": "https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1"
-  },
-  "command": {
-    "name": "json-server --watch bdd.json",
-    "doc": "https://github.com/typicode/json-server"
-  }
+  "users": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "email": "admin@azorestudio.com",
+      "username": "admin",
+      "pass": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+    },
+    {
+      "id": 2,
+      "nombre": "ramiro",
+      "email": "ramiro@azorestudio.com",
+      "username": "ramiro",
+      "pass": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+    }
+  ]
 }
