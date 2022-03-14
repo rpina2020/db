@@ -4,7 +4,7 @@
             "string": {"admin"}
         },
         "online": {
-            "boolean": {true}
+            "boolean": true
         },
         "picture": {
             "regexp": "…"
