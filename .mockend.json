@@ -1,7 +1,7 @@
 {
     "User": {
         "name": {"string": {"admin_envios"}},
-        "online": {"boolean": true},
+        "online": {"boolean": "true"},
         "picture": {"regexp": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSkIWrZ0iLl60phxHekr_Mfkql7QggEGk5P1DVYS0HeC7ifneu5GU1c4BWerocQk_lSw&usqp=CAU"}
     }
 }
