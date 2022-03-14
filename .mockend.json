@@ -1,10 +1,10 @@
 {
     "User": {
         "name": {
-            "string": {}
+            "string": {admin_envio}
         },
         "online": {
-            "boolean": {}
+            "boolean": {true}
         },
         "picture": {
             "regexp": "…"
