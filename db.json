@@ -1,32 +1,32 @@
 {
   "users": [
-    {
-      "id": 1,
-      "nombre": "admin_vet",
-      "apellido": "admin_vet",
-      "pass": "admin_vet",
-      "email": "admin_vet@gmail.com",
-      "tipo_usuario": 1,
-      "devices": [
-        1,
-        3
-      ],
-      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
-    },
-    {
-      "id": 2,
-      "nombre": "admin_usr",
-      "apellido": "admin_usr",
-      "pass": "admin_usr",
-      "email": "admin_usr@gmail.com",
-      "tipo_usuario": 2,
-      "devices": [
-        1,
-        2
-      ],
-      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
-    }
-  ],
+{
+"id": 1,
+"nombre": "admin_vet",
+"apellido": "admin_vet",
+"pass": "admin_vet",
+"email": "admin_vet@gmail.com",
+"tipo_usuario": 1,
+"devices": [
+1,
+3
+],
+"img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
+},
+{
+"id": 2,
+"nombre": "admin_usr",
+"apellido": "admin_usr",
+"pass": "admin_usr",
+"email": "admin_usr@gmail.com",
+"tipo_usuario": 2,
+"devices": [
+1,
+2
+],
+"img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
+}
+],
   "devices": [
     {
       "id": 1,
