@@ -1,7 +1,7 @@
 {
     "User": {
         "name": {
-            "string": {"hola}
+            "string": {"hola"}
         },
         "online": {
             "boolean": {true}
