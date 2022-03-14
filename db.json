@@ -1,133 +1,316 @@
 {
-  "perimetros": [
-    {
-      "id": 1,
-      "nombre": "INSTALACION",
-      "id_zona": 1
-    },
-    {
-      "id": 2,
-      "nombre": "COCHERA 1",
-      "id_zona": 2
-    },
-    {
-      "id": 3,
-      "nombre": "ALMACEN 1",
-      "id_zona": 3
-    }
-  ],
-  "activos": [
-    {
-        "id":1,
-        "nombre":"Mobil Utilitario DJC-264-ZBC",
-        "tipo_activo":1,
-        "id_zona":1,
-        "lat": -34.899911,
-        "lng": -57.954934,
-        "img": "https://s7d2.scene7.com/is/image/Caterpillar/C785388"
-    },
-    {
-        "id":2,
-        "nombre":"Mobil Utilitario RFT-795-ZBC",
-        "tipo_activo":2,
-        "id_zona":2,
-        "lat": -34.899911,
-        "lng": -57.954934,
-        "img": "https://s7d2.scene7.com/is/image/Caterpillar/C785388"
-    },
-    {
-        "id":3,
-        "nombre":"Mobil Utilitario 3",
-        "tipo_activo":1,
-        "id_zona":3,
-        "lat": -34.899911,
-        "lng": -57.954934,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB805QRUI_ycck5QRp_sPqdqO_pZqSbuE5Xw&usqp=CAU"
-    },
-    {
-        "id":4,
-        "nombre":"Mobil Utilitario 4",
-        "tipo_activo":2,
-        "id_zona":3,
-        "lat": -34.899911,
-        "lng": -57.954934,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB805QRUI_ycck5QRp_sPqdqO_pZqSbuE5Xw&usqp=CAU"
-    }
-  ],
-  "tipos_activos": [
-    {
-      "id": 1,
-      "id_activos": 1,
-      "id_perimetros": 1,
-      "id_atributos_activos": [
-        1,
-        3,
-        5,
-        6,
-        22
-      ]
-    },
-    {
-      "id": 2,
-      "id_activos": 2,
-      "id_perimetros": 2,
-      "id_atributos_activos": [
-        1,
-        3,
-        5,
-        6,
-        22
-      ]
-    }
-  ],
-  "atributos_activos": [
-    {
-      "id_atributos_activos": 1,
-      "id_tipos_atributos": 1,
-      "unidad_medida": 1,
-      "valor": 100
-    },
-    {
-      "id_atributos_activos": 2,
-      "id_tipos_atributos": 2,
-      "unidad_medida": 2,
-      "valor": 200
-    }
-  ],
-  "operaciones": [
-    {
-      "id": 1,
-      "nombre": "Egreso",
-      "id_perimetro": 1,
-      "id_activo": 1,
-      "descripcion": "El activo egreso de",
-      "hss_ingreso": "17:00:00",
-      "hss_egreso": "17:00:00"
-    },
-    {
-      "id": 2,
-      "nombre": "ingreso",
-      "id_perimetro": 2,
-      "id_activo": 2,
-      "descripcion": "El activo egreso de",
-      "hss_ingreso": "17:00:00",
-      "hss_egreso": "17:00:00"
-    }
-  ],
   "users": [
     {
       "id": 1,
-      "nombre": "admin",
-      "email": "admin@azorestudio.com",
-      "username": "admin",
-      "pass": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+      "nombre": "admin_vet",
+      "apellido": "admin_vet",
+      "pass": "admin_vet",
+      "email": "admin_vet@gmail.com",
+      "tipo_usuario": 1,
+      "devices": [
+        1,
+        3
+      ],
+      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
     },
     {
       "id": 2,
-      "nombre": "ramiro",
-      "email": "ramiro@azorestudio.com",
-      "username": "ramiro",
-      "pass": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+      "nombre": "admin_usr",
+      "apellido": "admin_usr",
+      "pass": "admin_usr",
+      "email": "admin_usr@gmail.com",
+      "tipo_usuario": 2,
+      "devices": [
+        1,
+        2
+      ],
+      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "nombre": null,
+      "active": true,
+      "id_device_type": 1,
+      "id_user": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": null,
+      "active": true,
+      "id_device_type": 1,
+      "id_user": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": null,
+      "active": true,
+      "id_device_type": 1,
+      "id_user": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": null,
+      "active": true,
+      "id_device_type": 1,
+      "id_user": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": null,
+      "active": true,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 6,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 7,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 8,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 9,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 10,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    },
+    {
+      "id": 11,
+      "nombre": null,
+      "active": false,
+      "id_device_type": 1,
+      "id_user": null
+    }
+  ],
+  "envios": [
+    {
+      "id": 1,
+      "estado": null,
+      "tipo": 1,
+      "repartidor": 1,
+      "ruta": [{"origen": "-34.915806, -57.950666","actualizacion":"2022-02-06 08:02:00","destino": "-34.899899, -57.955154","actualizacion":"2022-02-06 08:02:00","ubicacion": "-34.915814, -57.950619","actualizacion":"2022-02-06 08:02:00"}],
+      "detalles": [{"norden": "2961","tipo_pago":"Pago a través de Contra reembolso.","ip_cliente": "190.19.108.220","fecha_creacion":"2022-02-06 08:02:00","estado": "Procesando","nombre_cliente":"Maria López", "domicilio": "Andonaegui 1427", "localidad": "Ciudad Autónoma de Buenos Aires", "email": "solfernandezlopezactriz@gmail.com", "telefono": "1156033415", "subtotal": "$1.314,00", "envio": "$160,00", "total": "$1474,00"}]
+    }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "fecha_hora": "dd/mm/yyyy HH:MM:SS",
+      "notify": [
+        {
+          "send_notify": true,
+          "id_notifications": 4
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "type_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "type_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "type_id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Drama-+",
+      "type_id": "1"
+    }
+  ],
+  "type_notifications": [
+    {
+      "id": 1,
+      "nombre": "Cita con Veterinario"
+    },
+    {
+      "id": 2,
+      "nombre": "Calendario Vacunacion"
+    },
+    {
+      "id": 3,
+      "nombre": "Calendario Desparacitacion"
+    },
+    {
+      "id": 4,
+      "nombre": "Turno Con Veterinario"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "nombre": "Drama",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Acción",
+      "ruta": "uploads/users/files/",
+      "linkk": "www.enlace.com/uploads/users/files/name.pdf",
+      "format_id": 4
+    }
+  ],
+  "type_format": [
+    {
+      "id": 1,
+      "nombre": ".png"
+    },
+    {
+      "id": 2,
+      "nombre": ".jpg"
+    },
+    {
+      "id": 3,
+      "nombre": ".pdf"
+    },
+    {
+      "id": 4,
+      "nombre": ".txt"
+    }
+  ],
+  "user_type": [
+    {
+      "id": 1,
+      "nombre": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "user"
+    },
+    {
+      "id": 3,
+      "nombre": "user_vet"
+    }
+  ],
+  "device_type": [
+    {
+      "id": 1,
+      "nombre": "TAGG"
+    },
+    {
+      "id": 2,
+      "nombre": "GPS"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "nombre": "Mora",
+      "id_device": 1,
+      "id_user": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Lee",
+      "id_device": 2,
+      "id_user": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Lara",
+      "id_device": 3,
+      "id_user": 2
+    },
+    {
+      "id": 4,
+      "nombre": "Uma",
+      "id_device": 4,
+      "id_user": 2
     }
   ]
 }
