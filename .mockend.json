@@ -1,11 +1,14 @@
-    "User": {
-        "name": {
-            "string": "ramiro"
-        },
-        "online": {
-            "boolean": 1
-        },
-        "picture": {
-            "regexp": "…"
-        }
+{
+  "Post": {
+    "title": { "string": {"el titulo"} },
+    "comments": {
+      "hasMany": "Comment"
     }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
+}
