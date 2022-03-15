@@ -3,7 +3,7 @@
             "string": "ramiro"
         },
         "online": {
-            "boolean": true
+            "boolean": 1
         },
         "picture": {
             "regexp": "…"
