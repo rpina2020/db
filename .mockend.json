@@ -1,14 +1,5 @@
-{
-  "Post": {
-    "title": { "string": {"el titulo"} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {"body"} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
-}
+[
+  {"id": 0,"nombre": "nombre0"},
+  {"id": 1,"nombre": "nombre1"},
+  {"id": 2,"nombre": "nombre2"},
+]
