@@ -1,9 +1,9 @@
     "User": {
         "name": {
-            "string": {}
+            "string": "ramiro"
         },
         "online": {
-            "boolean": {}
+            "boolean": true
         },
         "picture": {
             "regexp": "…"
