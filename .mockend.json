@@ -6,7 +6,7 @@
     }
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": { "string": {"body"} },
     "post": {
       "belongsTo": "Post"
     }
