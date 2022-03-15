@@ -1,8 +1,12 @@
-{
     "User": {
         "name": {
-            "string": "admin_vet@gmail.com"
+            "string": {}
         },
-
+        "online": {
+            "boolean": {}
+        },
+        "picture": {
+            "regexp": "…"
+        }
     }
 }
