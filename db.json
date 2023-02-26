@@ -4,7 +4,7 @@
       "id": 1,
       "nombre": "admin_vet",
       "apellido": "admin_vet",
-      "pass": "admin_vet",
+      "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
       "email": "admin_vet@gmail.com",
       "tipo_usuario": 1,
       "devices": [
@@ -17,39 +17,44 @@
       "id": 2,
       "nombre": "admin_usr",
       "apellido": "admin_usr",
-      "pass": "admin_usr",
+      "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
       "email": "admin_usr@gmail.com",
       "tipo_usuario": 2,
       "devices": [
         1,
         2
       ],
-      "img": "https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"
+      "img": "img/user_app.png"
     }
   ],
   "devices": [
     {
       "id": 1,
       "nombre": null,
-      "active": true,
       "id_device_type": 1,
       "id_user": [
         1
+      ],
+      "geoloc": [
+        -34.899365,
+        -57.95561
       ]
     },
     {
       "id": 2,
       "nombre": null,
-      "active": true,
       "id_device_type": 1,
       "id_user": [
         1
+      ],
+      "geoloc": [
+        -34.885259,
+        -57.97066
       ]
     },
     {
       "id": 3,
       "nombre": null,
-      "active": true,
       "id_device_type": 1,
       "id_user": [
         2
@@ -58,7 +63,6 @@
     {
       "id": 4,
       "nombre": null,
-      "active": true,
       "id_device_type": 1,
       "id_user": [
         2
@@ -67,61 +71,71 @@
     {
       "id": 5,
       "nombre": null,
-      "active": true,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 6,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 7,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 8,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 9,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 10,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
     },
     {
       "id": 11,
       "nombre": null,
-      "active": false,
       "id_device_type": 1,
       "id_user": null
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
     }
   ],
-  "envios": [
+  "vet_records": [
     {
-      "id": 1,
-      "estado": null,
-      "tipo": 1,
-      "repartidor": 1,
-      "ruta": [{"origen": "-34.915806, -57.950666","actualizacion":"2022-02-06 08:02:00","destino": "-34.899899, -57.955154","actualizacion":"2022-02-06 08:02:00","ubicacion": "-34.915814, -57.950619","actualizacion":"2022-02-06 08:02:00"}],
-      "detalles": [{"norden": "2961","tipo_pago":"Pago a través de Contra reembolso.","ip_cliente": "190.19.108.220","fecha_creacion":"2022-02-06 08:02:00","estado": "Procesando","nombre_cliente":"Maria López", "domicilio": "Andonaegui 1427", "localidad": "Ciudad Autónoma de Buenos Aires", "email": "solfernandezlopezactriz@gmail.com", "telefono": "1156033415", "subtotal": "$1.314,00", "envio": "$160,00", "total": "$1474,00"}]
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Documental",
+      "id": 3
+    },
+    {
+      "nombre": "Acción",
+      "id": 4
     }
   ],
   "calendar": [
@@ -292,25 +306,33 @@
       "id": 1,
       "nombre": "Mora",
       "id_device": 1,
-      "id_user": 1
+      "imgs": "img/uploads/mora.png",
+      "id_user": 1,
+      "pet_info": "[{'nombre': 'Mora', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     },
     {
       "id": 2,
       "nombre": "Lee",
       "id_device": 2,
-      "id_user": 1
+      "imgs": "img/uploads/lee.png",
+      "id_user": 1,
+      "pet_info": "[{'nombre': 'Lee', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     },
     {
       "id": 3,
       "nombre": "Lara",
       "id_device": 3,
-      "id_user": 2
+      "imgs": "img/pet_dog_profile.png",
+      "id_user": 2,
+      "pet_info": "[{'nombre': 'Lara', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     },
     {
       "id": 4,
       "nombre": "Uma",
       "id_device": 4,
-      "id_user": 2
+      "imgs": "img/pet_dog_profile.png",
+      "id_user": 2,
+      "pet_info": "[{'nombre': 'Uma', 'descripcion': 'esta es la descripcion de la mascota','edad': 2, 'raza': 'pp', 'color': 'negro'}]"
     }
   ]
 }
