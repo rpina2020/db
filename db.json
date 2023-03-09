@@ -6,6 +6,8 @@
       "apellido": "admin_vet",
       "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
       "email": "admin_vet@gmail.com",
+      "validate_count": "false",
+      "reset_pass": "false",
       "tipo_usuario": 1,
       "devices": [
         1,
@@ -19,6 +21,8 @@
       "apellido": "admin_usr",
       "pass": "49f911d85835abf97932b0c00a0231c72655c6581d3686e71599fdb7fc19ff90",
       "email": "admin_usr@gmail.com",
+      "validate_count": "false",
+      "reset_pass": "false",
       "tipo_usuario": 2,
       "devices": [
         1,
